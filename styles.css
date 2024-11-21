@@ -1,0 +1,177 @@
+
+header {
+    padding: 20px 10px; /* Reduced padding for smaller screens */
+    border-radius: 20px;
+    color: rgb(215, 231, 245);
+    background-color: #3a6cd6;
+    box-shadow: 0 10px 20px rgba(60, 163, 241, 0.3); /* Subtler shadow */
+    text-align: center;
+    position: sticky; /* Make it sticky for better usability */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(6, 20, 33));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.thankyou {
+
+    padding: 50px;
+    background-color: #3a6cd6;
+
+
+}
+
+.info
+{
+
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(215, 231, 245);
+    background-color: #3a6cd6;
+    box-shadow: 0 10px 30px rgba(60, 163, 241, 0.3); /* Reduced shadow intensity */
+    max-width: 90%; /* Adjust for mobile screens */
+    width: 100%; /* Use full width up to max-width */
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    top:10px;
+
+
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Added gap for spacing */
+    margin: 20px;
+    width: 100%;
+}
+
+.review1,
+.review2,
+.review3,
+.review4,
+.review5,
+.review6,
+.review7,
+.review8,
+.review9,
+.review10 {
+    padding: 15px;
+    border-radius: 20px;
+    color: rgb(215, 231, 245);
+    background: linear-gradient(to bottom, #719ced, #6facfc);
+    box-shadow: 0 10px 30px rgba(60, 163, 241, 0.3); /* Reduced shadow intensity */
+    gap: 10px;
+    max-width: 90%; /* Adjust for mobile screens */
+    width: 100%; /* Use full width up to max-width */
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    height: auto; /* Let content determine height */
+    margin-top: 20px;
+}
+
+
+
+.rec1,
+.rec2,
+.rec3,
+.rec4,
+.rec5,
+.rec6,
+.rec7,
+.rec8,
+.rec9,
+.rec10 {
+    font-size: 1.2rem; /* Scalable font size */
+}
+
+.back {
+
+  background-color:#ffffff;
+  padding: 8px 8px;
+  color: rgb(0, 136, 255);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 1PX 1PX;
+  border-color: #ffffff;
+  border-radius: 10px;
+
+}
+
+.write {
+
+    background-color:#ffffff;
+    padding: 8px 4px;
+    color: rgb(0, 136, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1PX 1PX;
+    border-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.button-zone{
+
+    position-anchor: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.text {
+
+    padding: 10px 20px;
+    margin: 1px 1px;
+    border-radius: 15px;
+
+
+}
+
+.stars1,
+.stars2,
+.stars3,
+.stars4,
+.stars5,
+.stars6,
+.stars7,
+.stars8,
+.stars9,
+.stars10 {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px; /* Adjust font size for larger screens */
+    }
+
+    .review1,
+    .review2,
+    .review3,
+    .review4,
+    .review5,
+    .review6,
+    .review7,
+    .review8,
+    .review9,
+    .review10 {
+        max-width: 500px; /* Limit width for tablets and above */
+    }
+}
